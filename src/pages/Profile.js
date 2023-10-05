@@ -5,7 +5,7 @@ import OwnedNFT from "../components/profile/OwnedNFT";
 import MintedNFT from "../components/profile/MintedNFT";
 import SellNFT from "../components/profile/SellNFT";
 import NFTTransaction from "../components/profile/NFTTransaction";
-import user from "../assets/user.jpg";
+import user from "../assets/download.jpg";
 import { useAccount } from "wagmi";
 
 function Profile() {
