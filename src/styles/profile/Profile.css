@@ -1,0 +1,30 @@
+.dash-btns {
+  text-decoration: none;
+}
+
+.active-button {
+  background-color: #f4a424;
+  color: #000;
+}
+
+.profile-details {
+  padding-left: 3rem;
+  padding-top: 2rem;
+}
+
+.profile-img-class {
+  display: flex;
+  padding-left: 2rem;
+}
+
+.profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-name,
+.profile-address {
+  text-align: left;
+}

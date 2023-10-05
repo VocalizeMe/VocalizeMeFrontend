@@ -1,0 +1,67 @@
+.minted-nft-component {
+  border: 1px solid #fff;
+  border-radius: 2rem;
+  /* padding-bottom: 1rem; */
+}
+
+.row > * {
+  padding-right: 0rem;
+  padding-left: 0rem;
+}
+
+.minted-nft-details {
+  justify-content: flex-start;
+}
+
+.minted-nft-title,
+.minted-nft-desc,
+.minted-nft-badge {
+  text-align: left;
+}
+
+.minted-nft-btn {
+  cursor: pointer;
+  font-size: 1.2rem;
+  background-color: red;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  padding: 0.6rem;
+}
+
+.minted-nft-btn:hover {
+  font-weight: 600;
+}
+
+.minted-nft-img-div {
+  cursor: pointer;
+  border-top-right-radius: 2rem;
+  border-top-left-radius: 2rem;
+  overflow: hidden;
+  height: 250px;
+}
+
+.minted-nft-img-div img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.minted-nft-enlarged-imageStyle {
+  max-width: fit-content;
+  width: 300px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.minted-nft-closeStyle {
+  color: #000;
+  cursor: pointer;
+}
+
+.video-style {
+  display: flex;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}

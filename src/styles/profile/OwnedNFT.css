@@ -1,0 +1,67 @@
+.owned-nft-component {
+  border: 1px solid #fff;
+  border-radius: 2rem;
+}
+
+.row > * {
+  padding-right: 0rem;
+  padding-left: 0rem;
+}
+
+.owned-nft-details {
+  justify-content: flex-start;
+}
+
+.owned-nft-title,
+.owned-nft-desc,
+.owned-nft-badge {
+  text-align: left;
+}
+
+.owned-nft-btn {
+  cursor: pointer;
+  font-size: 1.2rem;
+  background-color: red;
+  border-bottom-left-radius: 2rem;
+  width: 50%;
+  padding: 0.6rem;
+}
+
+.owned-nft-defaultbtn {
+  font-size: 1.2rem;
+  background-color: #f4a424;
+  border-bottom-right-radius: 2rem;
+  width: 50%;
+}
+
+.owned-nft-defaultbtn:hover,
+.owned-nft-btn:hover {
+  font-weight: 600;
+}
+
+.owned-nft-img-div {
+  cursor: pointer;
+  border-top-right-radius: 2rem;
+  border-top-left-radius: 2rem;
+  overflow: hidden;
+  height: 250px;
+}
+
+.owned-nft-img-div img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.owned-nft-enlarged-imageStyle {
+  max-width: fit-content;
+  width: 300px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.owned-nft-closeStyle {
+  color: #000;
+  cursor: pointer;
+}

@@ -1,0 +1,69 @@
+.buy-nft-component {
+  border: 1px solid #fff;
+  border-radius: 2rem;
+}
+
+.row > * {
+  padding-right: 0rem;
+  padding-left: 0rem;
+}
+
+.buy-nft-details {
+  justify-content: flex-start;
+}
+
+.buy-nft-title,
+.buy-nft-desc,
+.buy-nft-badge {
+  text-align: left;
+}
+
+.buy-nft-btn {
+  cursor: pointer;
+  font-size: 1.2rem;
+  background-color: green;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  padding: 0.6rem;
+  color: #fff;
+}
+
+.buy-nft-btn:hover {
+  color: #fff;
+  font-weight: 600;
+}
+
+.buy-nft-img-div {
+  border-top-right-radius: 2rem;
+  border-top-left-radius: 2rem;
+  overflow: hidden;
+  height: 250px;
+  cursor: pointer;
+}
+
+.buy-nft-img-div img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.modal-title {
+  color: black;
+}
+
+.modal-form-text {
+  color: black;
+}
+
+.buy-nft-enlarged-imageStyle {
+  max-width: fit-content;
+  width: 300px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.buy-nft-closeStyle {
+  color: #000;
+  cursor: pointer;
+}

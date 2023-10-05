@@ -1,0 +1,264 @@
+.sticky-top {
+  background: none;
+  /* position: sticky; */
+  /* top: 0; */
+}
+
+.navbar.scrolled {
+  background: linear-gradient(
+    to right,
+    rgb(233, 241, 255),
+    rgb(181, 210, 254)
+  ); /* Change the background color when scrolling */
+}
+
+.navbar-container {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-navbar {
+  font-size: 1.2rem;
+  font-weight: 500;
+  opacity: 0.8;
+  color: #fff !important;
+  border-bottom: none;
+  transition: border-bottom 0.2s;
+}
+
+.landing-navbar:hover {
+  font-weight: 600;
+}
+
+.active {
+  border-bottom: 2px solid #fff;
+}
+
+.navbar {
+  background-color: black;
+}
+
+.navbar-toggler {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  transition: 0.5s ease-in-out;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+  border: 0;
+}
+.navbar.scrolled {
+  background: linear-gradient(
+    to right,
+    rgb(233, 241, 255),
+    rgb(181, 210, 254)
+  ); /* Change the background color when scrolling */
+}
+.navbar-toggler span {
+  margin: 0;
+  padding: 0;
+}
+
+.toggler-icon {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background: black;
+  border-radius: 1px;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: 0.25s ease-in-out;
+}
+
+.middle-bar {
+  margin-top: 0px;
+}
+
+/* when navigation is clicked */
+
+.navbar-toggler .top-bar {
+  margin-top: 0px;
+  transform: rotate(135deg);
+}
+
+.navbar-toggler .middle-bar {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar {
+  margin-top: 0px;
+  transform: rotate(-135deg);
+}
+
+/* State when the navbar is collapsed */
+
+.navbar-toggler.collapsed .top-bar {
+  margin-top: -20px;
+  transform: rotate(0deg);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+  margin-top: 20px;
+  transform: rotate(0deg);
+}
+
+.for-mob {
+  display: none !important;
+}
+
+.for-desktop {
+  display: inline-flex !important;
+}
+
+.img-logo {
+  width: 300px;
+}
+
+/* Color of 3 lines */
+
+.navbar-toggler.collapsed .toggler-icon {
+  /* background: linear-gradient( 263deg, rgba(252,74,74,1) 0%, rgba(0,212,255,1) 100% ); */
+  background: black;
+}
+
+/* .navbar-image{
+    margin-right: 1rem;
+} */
+
+.navbar-content {
+  font-size: 1.25rem !important;
+  font-weight: 450 !important;
+  /* color: white; */
+}
+
+.navbar-content:hover {
+  background: linear-gradient(to right, #4250ff, #6a79ff);
+  border-radius: 0.5rem;
+  color: white !important;
+}
+
+.navbar-image-hover {
+  display: none;
+}
+
+.navbar-image-hover,
+.navbar-image {
+  margin-right: 10px !important;
+}
+
+.navbar-content:hover {
+  .navbar-image {
+    display: none !important;
+  }
+  .navbar-image-hover {
+    display: flex !important;
+  }
+}
+
+.navbar-content.active {
+  background: linear-gradient(to right, #4250ff, #6a79ff);
+  border-radius: 0.5rem !important;
+  color: #ffffff !important;
+
+  .navbar-image {
+    display: none !important;
+  }
+  .navbar-image-hover {
+    display: flex !important;
+  }
+}
+
+.create-dropdown {
+  background-color: white;
+  text-align: left;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.link-style {
+  text-decoration: none;
+  color: black !important;
+  padding: 0.2rem 0.5rem;
+}
+
+.link-style:hover {
+  background-color: #4250ff;
+  color: white !important;
+  border-radius: 0.5rem;
+}
+
+.link-style.active {
+  color: white !important;
+  background-color: #4250ff;
+  border-radius: 0.5rem;
+}
+
+@media only screen and (max-width: 991px) {
+  ul {
+    height: 100vh !important;
+  }
+  .nav-link {
+    /* height: 100vh!important; */
+    font-size: 20px !important;
+    font-weight: 500 !important;
+    line-height: 5vh !important;
+  }
+
+  .for-mob {
+    display: block;
+  }
+
+  .for-desktop {
+    display: none;
+  }
+
+  .navbar-content {
+    display: flex;
+  }
+  .navbar-content {
+    font-size: 1.1rem !important;
+  }
+  .img-logo {
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .img-logo {
+    width: 200px;
+  }
+  .navbar-content {
+    font-size: 1rem !important;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .nav-link {
+    font-size: 20px !important;
+    font-weight: 500 !important;
+    line-height: 5vh !important;
+  }
+
+  .img-logo {
+    width: 150px;
+  }
+
+  .navbar-content {
+    font-size: 1rem !important;
+  }
+}
