@@ -22,7 +22,7 @@ function CreateItem() {
   const [btnloading, setbtnloading] = useState(false);
 
   const client = new Web3Storage({
-    token: process.env.REACT_APP_NFT_STORAGE_TOKEN,
+    token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDRlNzYyMGRhREFGMkY4NkYwRDI5ZjRDNjAzYzc1OUQ0NzA3ZmMwOEMiLCJpc3MiOiJ3ZWIzLXN0b3JhZ2UiLCJpYXQiOjE2OTYwNDU2OTE1MjEsIm5hbWUiOiJBdmF0YXIgTWFya2V0cGxhY2UifQ.Ah1bVnoYkUJgwb5yKoyk7nauBa5yHwjHbTsnxILlKAE",
   });
 
   const uploadNft = async () => {
